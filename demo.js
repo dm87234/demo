@@ -8,8 +8,7 @@
     if (flag) {
       let n = document.documentElement.scrollTop
       scrollTimer = setTimeout(() => {
-        console.log(n)
-        if (n > 100 && n < 200) {
+        if (n > 100 && n < 300) {
           ghost.style.left = 0
           ghost.style.opacity = 1
         } else if (n > 200) {
