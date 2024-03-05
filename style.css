@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+body{
+  height: 2000px;
+  width: 100vw;
+  overflow-x: clip;
+}
+header{
+  height: 8vh;
+  width: 100vw;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 8vh;
+}
+main{
+  margin-top: 70px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+p{
+  line-height: 1.6;
+  color: #777;
+}
+.dmBox{
+  padding: 1rem 1.5rem;
+}
+.ghost{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  z-index: 9;
+  top: 10vh;
+  left: -100px;
+  opacity: 0;
+  transition: all .5s ease-in; 
+}
+img{
+  width: 100%;
+  object-fit: cover;
+}
