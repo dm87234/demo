@@ -30,7 +30,9 @@ p{
   color: #777;
 }
 .dmBox{
-  padding: 1rem 1.5rem;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
 }
 .ghost{
   width: 100px;
